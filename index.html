@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body onload="init()">
+    <h1>THE MEIN SWIFFER GAME</h1>
+
+  
+
+
+
+        <button onclick="choseLevel(this)">EASY LEVEL</button>
+        <button onclick="choseLevel(this)">MEDIUM</button>
+        <button onclick="choseLevel(this)">HARD</button>
+    
+        
+        <div class="timerh">
+            <h3>it take:</h3>
+            <p class="timer">00:00</p>
+            </div>
+        </div>
+    
+        <br>
+        <div class="table" oncontextmenu="return false;">
+            
+            <table border="1">
+                <tbody class="board">
+                    
+                </tbody>
+            </table>
+            
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <button class="button4" onclick="init()">Play Again</button>
+
+</body>
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+
+</html>
